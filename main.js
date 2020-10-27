@@ -33,4 +33,12 @@ $(document).ready(function(){
             $('.slider :last-of-type').addClass('active');
         }
     });
+
+                //DARK-MODE//
+    $('.BtnDarkMode').click(function(){
+        $('body').toggleClass('BodyDarkMode');
+        $('.arrowPrev i').toggleClass('ArrowDarkMode');
+        $('.arrowNext i').toggleClass('ArrowDarkMode');
+        $('.bullets span').toggleClass('BulletsDarkMode');
+    });
 });
