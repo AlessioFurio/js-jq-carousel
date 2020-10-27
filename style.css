@@ -42,3 +42,22 @@
 .slider img.active {
     display: block;
 }
+
+.bullets {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bullets span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.bullets span.active {
+    background-color: #000;
+}
